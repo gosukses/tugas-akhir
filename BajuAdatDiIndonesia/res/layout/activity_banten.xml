@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.wtcelectronikshops.bantenActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="banten"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/tigabelas" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="penjelasan"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="\nPakaian ini adalah jubah dan tutup kepala diadaptasi dari pakaian haji. Jubbah terbuat dari bahan beludru sedangkan tutup kepala terbuat dari sorban yang di sebut juga alpie. Untuk pengantin perempuan di Betwi disebut rias besar dandanan care none pengantin cine. Pakaian ini juga sedikitnya mirip dengan pakaian pengantin perempuan di Cina. Pakain pengantin yang di pakai oleh kalangan bangsawan Cina.\n\n
+                Bahan pakaian pengantin perempuan rias besar dandanan care none pengantin cine adalah baju yang di kenakan blus, bawahannya adalah rok berwarna gelap. Pelengkapan pakaian ini adalah bagian kepala dirias dengan tambahan kembang goyang dengan motif hong dengan sanggul palsu dan cdar sebagai penutup setengah wajah. Selain itu perhiasan juga menjadi asesoris pakaian pengantin perempuan sebgi manik-manik dan gelang. \n" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+

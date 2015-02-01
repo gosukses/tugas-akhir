@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.stikom.bajuadatdiindonesia"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+   <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EraphoneActivity"
+            android:label="@string/title_activity_eraphone" >
+        </activity>
+        <activity
+            android:name=".ErafoneActivity"
+            android:label="@string/title_activity_erafone" >
+        </activity>
+        <activity
+            android:name=".ProdukActivity"
+            android:label="@string/title_activity_produk" >
+        </activity>
+        <activity
+            android:name=".StoreActivity"
+            android:label="@string/title_activity_store" >
+        </activity>
+        <activity
+            android:name=".OkeShopActivity"
+            android:label="@string/title_activity_oke_shop" >
+        </activity>
+        <activity
+            android:name=".Produk1Activity"
+            android:label="@string/title_activity_produk1" >
+        </activity>
+        <activity
+            android:name=".Store1Activity"
+            android:label="@string/title_activity_store1" >
+        </activity>
+        <activity
+            android:name=".SamsungActivity"
+            android:label="@string/title_activity_samsung" >
+        </activity>
+        <activity
+            android:name=".Produk2Activity"
+            android:label="@string/title_activity_produk2" >
+        </activity>
+        <activity
+            android:name=".Store2Activity"
+            android:label="@string/title_activity_store2" >
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name=".riauActivity"
+            android:label="@string/title_activity_riau" >
+        </activity>
+        <activity
+            android:name=".jambiActivity"
+            android:label="@string/title_activity_jambi" >
+        </activity>
+        <activity
+            android:name=".sumatraselatanActivity"
+            android:label="@string/title_activity_sumatraselatan" >
+        </activity>
+        <activity
+            android:name=".lampungActivity"
+            android:label="@string/title_activity_lampung" >
+        </activity>
+        <activity
+            android:name=".bengkuluActivity"
+            android:label="@string/title_activity_bengkulu" >
+        </activity>
+        <activity
+            android:name=".bangkabelitungActivity"
+            android:label="@string/title_activity_bangkabelitung" >
+        </activity>
+        <activity
+            android:name=".kepulauanriauActivity"
+            android:label="@string/title_activity_kepulauanriau" >
+        </activity>
+        <activity
+            android:name=".maduraActivity"
+            android:label="@string/title_activity_madura" >
+        </activity>
+        <activity
+            android:name=".jawabaratActivity"
+            android:label="@string/title_activity_jawabarat" >
+        </activity>
+        <activity
+            android:name=".bantenActivity"
+            android:label="@string/title_activity_banten" >
+        </activity>
+      
+    </application>
+
+</manifest>

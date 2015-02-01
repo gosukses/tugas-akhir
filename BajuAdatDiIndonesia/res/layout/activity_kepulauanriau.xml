@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.wtcelectronikshops.Kepulauan RiauActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Kepulauan Riau"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/sepuluh" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="penjelasan"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="\n Kebaya labuh berbentuk semacam kebaya pada umumnya, namun bagian bawahnya menjuntai hingga menutupi lutut. Sebagaimana kebaya pada umumnya, dua sisi bagian depan kebaya labuh dikaitkan dengan tiga buah kancing, pada jaman dahulu menggunakan peniti, sehingga bagian bawah kebaya labuh tampak melebar dan terbuka.  Cara pemakaiannya biasanya dipadukan dengan kain batik sebagai bawahan. Terkadang ditambahkan dengan selendang sebagai tambahan aksesoris./n/n
+                Kebaya labuh berbahan kain, baik itu sutera cina, broked, dan lain-lain. Untuk acara-acara formal, biasanya perempuan Melayu Kepulauan Riau menggunakan bahan sutera Cina yang halus dan sarung songket sebagai bawahan.
+Kebaya labuh juga biasa digunakan sebagai pakaian mempelai perempuan ketika sedang melangsungkan akad nikah. Umumnya hanya mengenakan sanggul lipat pandan yang dihiasi dengan kembang goyang atau bisa juga menggunakan kerudung.
+                . \n" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+

@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.wtcelectronikshops.OkeShopActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sumatra Utara"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:src="@drawable/dua" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="penjelasan"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Ulos merupakan pakaian adat dari Sumatera Utara. Ulos adalah kain tenun khas Batak, yang secara harfiah berati selimut yang menghangatkan tubuh. \n\n
+melindungi dari terpaan udara dingin. Ulos bisa merankan berbagai fungsi sandang, sebagai selendang, sarung, penutup kepala, dan lain sebagainya. \n\n
+Hari ini, Ulos masih lestari di lingkungan masyarakat Sumatera Utara. Ulos telah dengan mulus berakulturasi dengan berbagai jenis sandang modern, seperti kemeja dan jas. \n\n
+Ulos dianggap sebagai peninggalan leluhur orang Batak, yang merupakan bangsa yang hidup di dataran-dataran tinggi pegunugan.\n\n
+Dengan maksud tetap menjaga tubuh tetap hangat, kain Ulos mereka kenakan untuk menghalau dingin selama mereka berladang dan beraktivitas lainnya. Konon, dari tradisi ini juga lahirnya uangkapan bahwa, bagi leluhur orang Batak, ada tiga sumber yang memberi kehangatan pada manusia, yakni matahari, api dan Ulos. Jika sumber panas matahari dan api terbatas oleh ruang dan waktu, maka tidak demikian dengan Ulos, yang bisa memberi kehangatan kapanpun dan dimanapun. \n\n
+
+" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

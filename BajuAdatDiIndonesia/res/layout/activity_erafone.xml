@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.wtcelectronikshops.ErafoneActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="aceh"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="\n" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/satu" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Keterangan"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="\nKekayaan budaya Provinsi Nanggroe Aceh Darussalam atau lebih dikenal dengan julukan Serambi Mekah banyak dipengaruhi oleh budaya Islam. Dalam hal Pakaian Adat, pengaruh budaya Islam juga sangat tampak.\n\n\nPakaian Adat Tradisional Laki-laki Aceh (Linto Baro):\n
+\n•	Pria memakai Baje Meukasah atau baju jas leher tertutup. Ada sulaman keemasan menghiasi krah baju.\\n
+•	Jas ini dilengkapi celana panjang yang disebut Cekak Musang. \n
+•	Kain sarung (Ija Lamgugap) dilipat di pinggang berkesan gagah. Kain sarung ini terbuat dari sutra yang disongket. \n
+•	Sebilah rencong atau Siwah berkepala emas/perak dan berhiaskan permata diselipkan di ikat pinggang. \n
+•	Bagian kepala ditutupi kopiah yang populer disebut Meukeutop. \n
+.\n\n" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

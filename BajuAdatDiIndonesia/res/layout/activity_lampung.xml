@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.wtcelectronikshops.lampungActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="lampung"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/tujuh" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="penjelasan"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="\Untuk Busana adat kesehariannya laki-laki Lampung akan mengikat kepalanya dengan menggunakan kikat. Bahan kikat ini terbuat dari kain batik. Jika di kenakan dalam kerapatan adat akan dipadukan dengan pakaian teluk belanga serta kain. Kalau untuk mengiring pengantin akan dikenakan kekat akkin, semacam destar yang pada bagian tepinya dihias dengan bunga-bunga terbuat dari benang emas dan pada bagian tengah dengan berhiaskan siger, dan pada salah satu sudutnya ada sulaman benang emas yang berupa bunga tanjung atau bunga cengkeh.\n\n
+                Untuk Pakaian keseharian wanita Lampung mengenakan kanduk/kakambut yaitu berupa kudung untuk penutup kepala dengan cara dililitkan. Bahan kanduk atau kakambut ini terbuat dari kain halus yang tipis atau dari bahan sutera. Lawai kurung di pakai sebagai penutup badan dan bentuknya menyerupai Baju kurung. Busana ini dibuat dengan menggunakan bahan tipis ataupun kain sutra dan pada bagian tepi muka dan bagian lengan umumnya dihiasi dengan rajutan renda yang halus.\n\n
+                Kalau untuk menghadiri acara upacara adat, seperti misalnya saat ada upacara perkawinan kaum wanita, baik itu untuk yang gadis atapun yang sudah menikah akan menyanggul rambutnya (belatung buwok). Cara menyanggul rambut model belatung buwok ini dibutuhkan rambut tambahan untuk melilit rambut asli dengan memakai bantuan rajutan benang berwarna hitam halus. Selanjutnya rajutan tadi ditusuk dengan menggunakan bunga kawat yang bisa bergerak-gerak atau disebut dengan kembang goyang.. \n" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+

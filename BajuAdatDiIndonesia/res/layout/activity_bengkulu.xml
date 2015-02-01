@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.wtcelectronikshops.bengkuluActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="bengkulu"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/delapan" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="penjelasan"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="\nPakaian Adat Pria terdiri atas jas, sarung, celana panjang, alas kaki yang dilengkapi dengan tutup kepala dan sebuah keris. Jas tersebut dari kain bermutu seperti wol dan sejenisnya dan biasanya berwarna gelap seperti hitam atau biru tua. Demikian pula untuk celananya terbuat dari bahan dan warna yang sama..\n\n
+                Versi lain dari jas adalah sejenis jas tertutup dari bahan beludru hitam, merah tua atau biru tua yang bertaburkan corak-corak sulaman atau lempeng-lempeng emas. Pada bagian dada tergantung sebentuk lidah penutup, mirip dasi dengan hiasan-hiasan benang emas. Celana paduannya terbuat dari beludru dengan taburan corak, ½ corak benang emas juga walaupun tidak selalu dalam warna yang sama dengan jas.\n\n
+                Sarung dikenakan sebagai samping dibawah jas sampai sedikit di atas lutut. Samping biasanya terbuat dalam teknik songket benang emas atau perak dan disebut sarung segantung. \n" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+

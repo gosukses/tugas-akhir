@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.wtcelectronikshops.SamsungActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Sumatra Barat"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/tiga" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="\nSumatra Barat"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="\n\ Pakaiaan adat khas Minangkabau Sumatra Barat sangatlah feminim bila dilihat dari sudut busananya.\n\n
+                Pakaian Khas Sumatra Barat di bagi menjadi dua yaitu : Pakaian Tradisional dari Minangkabau dan Pakaian Bundo Kanduang\n\n
+                Produk yang kami iklankan ini merupakan bagian dari Pakaian Bundo Kanduang. Seorang bundo kandung mengenakan tengkuluk tanduk atau tengkuluk ikek sebagai penutup kepala. Bahannya berasal dari kain balapak tenunan Pandai Sikat Padang Panjang \n\n
+                 Bentuknya seperti tanduk kerbau dengan kedua ujung runcing berumbai dari emas atau loyang sepuhan. Pemakaian tengkuluk ini melambangkan bahwa perempuan sebagai pemilik rumah \n\n
+                 gadang.Seorang wanita yang telah diangkat menjadi bundo kanduang (bunda kandung) memegang peranan penting dalam kaumnya. Tidak semua wanita dapat menjadi bundo kandungan. Ia haruslah orang yang arif bijaksana, kata-katanya didengar, pergi tempat bertanya dan pulang tempat berita \n" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+

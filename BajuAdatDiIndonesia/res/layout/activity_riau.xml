@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.wtcelectronikshops.riauActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Riau"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/empat" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="penjelasan"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="\nBaju pengantin laki-laki Melayu Riau adalah Baju Kurung Cekak Musang atau Baju Kurung Teluk Belanga. Selain Baju Kurung Cekak Musang, busana pengantin laki-laki adalah kain samping bermotif serupa dengan celana dan baju, distar berbentuk mahkota dipakai di kepala, sebai warna kuning di bahu kiri, rantai panjang berbelit dua yang dikalungkan di leher, canggai yang dipakai di kelingking, sepat runcing di bagian depan, dan keris hulu burung serindit pendek yang diselipkan di sebela kiri.\n\n
+                Sementara busana yang dikenakan perempuan berbeda-beda, tergantung pada jenis upacara adatnya. Pengantin perempuan dalam upacara Malam Berinai memakai Baju Kurung Teluk Belanga. Sedangkan pada upacara Barandam, pengantin perempuan memakai Baju Kurung Kebaya atau Kebaya Pendek. Kepala hanya memakai sanggul yang dihiasi dengan bunga-bunga. Pakaian pengantin perempuan pada Upacara Akad Nikah adalah Baju Kebaya Laboh atau Baju Kurung teluk. Kemudian, untuk pakaian pada waktu upacara Bersanding adalah Kebaya Laboh atau Baju Kurung Teluk Belanga. \n" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+
